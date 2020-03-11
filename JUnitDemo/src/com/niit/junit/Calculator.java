@@ -21,9 +21,13 @@ public class Calculator {
 		}
 		return a/b;
 	}
- /*public static void main(String [] args)
+ public static void main(String [] args)
  {
 	 Calculator c=new Calculator();
-	 c.add(10.5, 12.5);
- }*/
+	 System.out.println("Addion is:"+c.add(10.5, 12.5));
+	 System.out.println("Subtraction is :"+c.subtract(10.5, 12.5));
+	 System.out.println("Multiplication is : "+c.multiply(10.5, 12.5));
+	 System.out.println("Division is "+c.divide(10.5, 12.5));
+	 
+ }
 }
